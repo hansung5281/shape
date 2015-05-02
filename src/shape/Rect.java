@@ -3,6 +3,7 @@ public class Rect extends Shape implements Drawable{
 
 	private int width;
 	private int height;
+<<<<<<< HEAD
 	private boolean visible;
 	
 	
@@ -13,11 +14,14 @@ public class Rect extends Shape implements Drawable{
 		this.visible = visible;
 		visible(visible);
 	}
+=======
+>>>>>>> 975259a4dc5f7f4d6a1a81010da572a7c75a6f83
 
 	public void draw() {
 		System.out.println("사각형을 그립니다.");
 	}
 
+<<<<<<< HEAD
 	@Override
 	public void visible(boolean visible) {
 		
@@ -28,6 +32,8 @@ public class Rect extends Shape implements Drawable{
 		}
 	}
 	
+=======
+>>>>>>> 975259a4dc5f7f4d6a1a81010da572a7c75a6f83
 	public double calculateArea() {
 
 		return width * height;

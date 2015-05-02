@@ -1,6 +1,7 @@
 package shape;
 
 public class Circle extends Shape implements Drawable{
+<<<<<<< HEAD
 	
 	private int radius;
 	private boolean visible;
@@ -29,4 +30,12 @@ public class Circle extends Shape implements Drawable{
 
 		return radius*Math.PI;
 	}
+=======
+	private int width;
+	private int height;
+	
+	public void draw() {
+		System.out.println("원을 그립니다.");
+	}
+>>>>>>> 975259a4dc5f7f4d6a1a81010da572a7c75a6f83
 }
